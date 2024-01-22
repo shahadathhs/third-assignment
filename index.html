@@ -39,7 +39,7 @@
   <!-- header section started-->
   <header>
     <!-- navbar section -->
-    <nav class="p-2 lg:p-10">
+    <nav class="p-2 lg:p-7">
       <div class="navbar bg-base-100">
         <div class="navbar-start">
           <div class="dropdown">
@@ -66,12 +66,49 @@
           </ul>
         </div>
         <div class="navbar-end">
-          <i class="fa-solid fa-magnifying-glass p-4"></i>  <a class="btn bg-[#FF4240] text-white font-bold">Get Ticket</a>
+          <i class="fa-solid fa-magnifying-glass p-4 text-[#424247]"></i>  <a class="btn bg-[#FF4240] text-white font-bold">Get Ticket</a>
         </div>
       </div>
     </nav>
     <!-- banner section -->
-
+    <section class="p-5 lg:p-9">
+      <div class="carousel w-full relative">
+        <div id="slide1" class="carousel-item relative w-full">
+          <img src="Images/1.png" class="w-full" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide4" class="btn btn-circle">❮</a> 
+            <a href="#slide2" class="btn btn-circle">❯</a>
+          </div>
+        </div> 
+        <div id="slide2" class="carousel-item relative w-full">
+          <img src="Images/4.png" class="w-full" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide1" class="btn btn-circle">❮</a> 
+            <a href="#slide3" class="btn btn-circle">❯</a>
+          </div>
+        </div> 
+        <div id="slide3" class="carousel-item relative w-full">
+          <img src="Images/2.png" class="w-full" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide2" class="btn btn-circle">❮</a> 
+            <a href="#slide4" class="btn btn-circle">❯</a>
+          </div>
+        </div> 
+        <div id="slide4" class="carousel-item relative w-full">
+          <img src="Images/3.png" class="w-full" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide3" class="btn btn-circle">❮</a> 
+            <a href="#slide1" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+      </div>
+      <div class="bg-black text-white p-4 rounded-md lg:w-96 lg::absolute lg:translate-x-[550px] lg:-translate-y-[120px]">
+        <h3 class="font-extrabold">Meet all the heroes from the field</h3>
+        <p class="font-medium text-sm">
+          Take tips from your on-field heroes. Know how they become successful and motivate yourself.
+        </p>
+      </div>
+    </section>
   </header>
   <!-- header section started -->
   <!-- main section started -->
