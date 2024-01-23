@@ -37,7 +37,7 @@
 <!-- body section started -->
 <body class="font-manrope">
   <!-- header section started-->
-  <header>
+  <header class="container mx-auto">
     <!-- navbar section -->
     <nav class="p-2 lg:p-7">
       <div class="navbar bg-base-100">
@@ -66,12 +66,12 @@
           </ul>
         </div>
         <div class="navbar-end">
-          <i class="fa-solid fa-magnifying-glass p-4 text-[#424247]"></i>  <a class="btn bg-[#FF4240] text-white font-bold">Get Ticket</a>
+          <i class="fa-solid fa-magnifying-glass p-4 text-[#424247] hidden md:flex"></i>  <a class="btn bg-[#FF4240] text-white font-bold">Get Ticket</a>
         </div>
       </div>
     </nav>
     <!-- banner section -->
-    <section class="p-5 lg:p-9">
+    <section class="p-5 lg:px-9">
       <div class="carousel w-full relative">
         <div id="slide1" class="carousel-item relative w-full">
           <img src="Images/1.png" class="w-full" />
@@ -102,7 +102,7 @@
           </div>
         </div>
       </div>
-      <div class="bg-black text-white p-4 rounded-md lg:w-96 lg::absolute lg:translate-x-[550px] lg:-translate-y-[120px]">
+      <div class="bg-black text-white p-4 rounded-md lg:w-96 lg::absolute lg:float-end lg:mr-4 lg:-translate-y-[120px]">
         <h3 class="font-extrabold">Meet all the heroes from the field</h3>
         <p class="font-medium text-sm">
           Take tips from your on-field heroes. Know how they become successful and motivate yourself.
@@ -112,8 +112,38 @@
   </header>
   <!-- header section started -->
   <!-- main section started -->
-  <main>
-
+  <main class="container mx-auto">
+    <!-- professional hockey section -->
+    <section class="flex flex-col justify-center w-full p-3 lg:px-7">
+      <div class="text-center space-y-3 lg:space-y-5">
+        <hr class="border-dashed">
+        <h3 class="font-bold lg:font-extrabold text-3xl">Professional Hockeys Club</h3>
+        <p class="font-medium text-[#13131899]">Please navigate the site for updates and general information. We provide best services.</p>
+        <hr class="border-dashed">
+      </div>
+      <div class="py-10 px-3 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+        <div class="text-center space-y-3">
+          <div class="radial-progress text-primary text-red-500" style="--value:87;" role="progressbar"><span class="text-black font-extrabold text-2xl">87%</span></div>
+          <h3 class="font-medium text-xl">Prayer Facility</h3>
+          <p class="text-[#13131899]">We have world class support and facility.</p>
+        </div>
+        <div class="text-center space-y-3">
+          <div class="radial-progress text-primary text-cyan-300" style="--value:95;" role="progressbar"><span class="text-black font-extrabold text-2xl">95%</span></div>
+          <h3 class="font-medium text-xl">Experienced Coach</h3>
+          <p class="text-[#13131899]">We have coaches with very successful record.</p>
+        </div>
+        <div class="text-center space-y-3">
+          <div class="radial-progress text-primary text-yellow-500" style="--value:90;" role="progressbar"><span class="text-black font-extrabold text-2xl">90%</span></div>
+          <h3 class="font-medium text-xl">Senior Player</h3>
+          <p class="text-[#13131899]">Our senior players are supportive to their juniors.</p>
+        </div>
+        <div class="text-center space-y-3">
+          <div class="radial-progress text-primary text-blue-500" style="--value:80;" role="progressbar"><span class="text-black font-extrabold text-2xl">80%</span></div>
+          <h3 class="font-medium text-xl">Training Ground</h3>
+          <p class="text-[#13131899]">Our training ground have facilities of a real playground.</p>
+        </div>
+      </div>
+    </section>
   </main>
   <!-- main section ended -->
   <!-- footer section started -->
